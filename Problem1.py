@@ -15,6 +15,12 @@ add - O(n)
 remove - O(1)
 contains - O(1)
 
+Approach:
+- Use a hash matrix to store the keys
+- Use two hash functions to map the key to an index in the hash matrix
+- If the key already exists, update the value
+- If the key does not exist, add the key-value pair to the hash matrix
+
 """
 
 class MyHashSet:
